@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<!-- titulo -->
+	<title>Computación Cuántica</title>
+	<!-- link a css -->
+	<link rel="stylesheet" href="css/estilos.css">
+	<!-- link a libreria bootstrap 4.0 -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!-- link para fontawesome -->
+	<script src="https://kit.fontawesome.com/cb8f669818.js" crossorigin="anonymous"></script>
+	<!-- links para que funcionen los slideshows de bootstrap 4.0, js y jquery -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<!-- Audio de Cuantica -->
+	<audio src="cuantica.mp3" autoplay type="audio/mp3/"></audio>
+
+
+	<!-- El header va a ser la presentación por mientras -->
+	<section id="portada">
+		<div class="container-fluid">
+			<iframe src="https://giphy.com/embed/UtVjgQuWRwyIUuZA2Y" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/orbit-atom-artificial-UtVjgQuWRwyIUuZA2Y"></a></p>
+			<h1 class="MasiveHeading">Hello</h1>
+		</div>
+	</section>
+
+
+
+
+
+	<!-- Seccion Recomendaciones -->
+	<section id="Recomendaciones">
+		<div class="container fluid">
+			<!-- Para establecer los margener con la pagina -->
+			<!--Clase nativa de Boostrap que trae todo el centro -->
+			<h1 class="RecomendacionesTexto HeadingGrande RecomendacionesTittle">Recomendaciones</h1>
+			<div class="row">
+				<!--Clase para el sistema de Grid -->
+				<div class="col-lg-6 RecomendacionesElementos">
+					<!-- Columna 1 -->
+					<img class="RecomendacionesImage" src="imagenes/img1.jpg">
+				</div>
+
+				<div class="col-lg-6 RecomendacionesElementos RecomendacionesTexto">
+					<!-- Columna 2 -->
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt in,
+						nemo dignissimos officiis dicta cupiditate ex quibusdam a quas optio iste,
+						consequatur sed blanditiis vero adipisci. Repellat, harum!</p>
+				</div>
+			</div>
+			<div>
+				<a href="#Diferencias" class="btn btn-primary btn-lg boton">Sala 1</a>
+				<a href="#Concepto" class="btn btn-primary btn-lg boton">Sala 2</a>
+				<a href="#Qubit" class="btn btn-primary btn-lg boton">Sala 3</a>
+				<a href="#CompuCuantica" class="btn btn-primary btn-lg boton">Sala 4</a>
+				<a href="#Avances" class="btn btn-primary btn-lg boton">Sala 5</a>
+				<a href="#Gracias" class="btn btn-primary btn-lg boton">Salida</a>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+	<!-- Seccion Diferencias -->
+	<section id="Diferencias">
+
+		<div class="container fluid">
+			<!-- Para establecer los margener con la pagina -->
+			<h1 class="HeadingGrande">Diferencias</h1>
+			<div class="row">
+				<!--Clase para el sistema de Grid -->
+				<div class="col-lg-4 diferenciaBox">
+					<!--Columna 1 -->
+					<i class="fas fa-tachometer-alt fa-5x logos"></i>
+					<h3 class="hachetres">Easy to use.</h3>
+					<p>So easy to use, even your dog could do it.</p>
+				</div>
+				<div class="col-lg-4 diferenciaBox">
+					<!--Columna 2 -->
+					<i class="fas fa-plus fa-5x logos"></i>
+					<h3 class="hachetres">Elite Clientele</h3>
+					<p>We have all the dogs, the greatest dogs.</p>
+				</div>
+				<div class="col-lg-4 diferenciaBox">
+					<!--Columna 3 -->
+					<i class="fas fa-chart-line fa-5x logos"></i>
+					<h3 class="hachetres">Guaranteed to work.</h3>
+					<p>Find the love of your dog's life or your money back.</p>
+				</div>
+			</div>
+			<a href="#Recomendaciones" class="btn btn-primary btn-lg">Regresar a Lobby</a>
+		</div>
+	</section>
+
+
+
+
+
+
+	<!-- Seccion Concepto -->
+	<section id="Concepto">
+
+		<div id="carouselConceptoControls" class="carousel slide" data-ride="false" data-pause="hover">
+			<!--Id del carrusel MUY IMPORTANTE -->
+			<div class="carousel-inner">
+				<div class="carousel-item active container-fluid">
+					<!--Primer Elemento que se muestra, porque esta Active -->
+					<div class="row">
+						<div class="col-lg-12">
+							<!-- Separa el titulo de la columna 1 y la comlumna 2 -->
+							<h1 class="HeadingGrande">Teoría Cuántica</h1>
+							<!--Elemento 1 -->
+						</div>
+						<div class="col-lg-6 RecomendacionesElementos">
+							<!--Columna 1 -->
+							<img class="RecomendacionesImage" src="imagenes/img1.jpg">
+						</div>
+
+						<div class="col-lg-6 RecomendacionesElementos RecomendacionesTexto">
+							<!--Columna 2 -->
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt in,
+								nemo dignissimos officiis dicta cupiditate ex quibusdam a quas optio iste,
+								consequatur sed blanditiis vero adipisci. Repellat, harum!</p>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item container-fluid">
+					<div class="row">
+						<div class="col-lg-12">
+							<h1 class="HeadingGrande">Definición</h1> <!-- Separa el titulo de la columna 1 y la comlumna 2 -->
+							<!--Elemento 2-->
+						</div>
+						<div class="col-lg-6 RecomendacionesElementos">
+							<!--Columna 1 -->
+							<img class="RecomendacionesImage" src="imagenes/img1.jpg">
+						</div>
+
+						<div class="col-lg-6 RecomendacionesElementos RecomendacionesTexto">
+							<!--Columna 2 -->
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt in,
+								nemo dignissimos officiis dicta cupiditate ex quibusdam a quas optio iste,
+								consequatur sed blanditiis vero adipisci. Repellat, harum!</p>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item container-fluid">
+					<div class="row">
+						<div class="col-lg-12">
+							<!-- Separa el titulo de la columna 1 y la comlumna 2 -->
+							<h1 class="HeadingGrande">Origen</h1>
+							<!--Elemento 3-->
+						</div>
+						<div class="col-lg-6 RecomendacionesElementos">
+							<!--Columna 1 -->
+							<img class="RecomendacionesImage" src="imagenes/img1.jpg">
+						</div>
+
+						<div class="col-lg-6 RecomendacionesElementos RecomendacionesTexto">
+							<!--Columna 2 -->
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt in,
+								nemo dignissimos officiis dicta cupiditate ex quibusdam a quas optio iste,
+								consequatur sed blanditiis vero adipisci. Repellat, harum!</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- controles del carrusel -->
+			<a class="carousel-control-prev" href="#carouselConceptoControls" role="button" data-slide="prev">
+				<!--Control para ir para atrás-->
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselConceptoControls" role="button" data-slide="next">
+				<!--Control para ir para adelante-->
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+		<a href="#Recomendaciones" class="btn btn-primary btn-lg">Regresar a Lobby</a>
+	</section>
+
+
+
+
+
+
+
+	<!-- Seccion Qubit -->
+
+	<section id="Qubit">
+		<div class="container-fluid">
+			<!-- Para establecer los margener con la pagina -->
+
+			<div class="row">
+				<div class="col-lg-6">
+					<!-- Columna 1 -->
+
+					<div class="circulo">
+						<img src="imagenes/img3.png" class="imagen">
+						<h2 align="center">Qubit</h2>
+					</div>
+					<div class="parrafo">
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, obcaecati qui ducimus maiores alias voluptatum magnam, animi optio facilis corporis quos. Dolor voluptatum eligendi minus hic laudantium aperiam aspernatur saepe.</p>
+					</div>
+					<a href="#Recomendaciones" class="btn btn-primary btn-lg">Regresar a Lobby</a>
+				</div>
+				<div class="col-lg-6 QubitRight">
+					<!-- Columna 2 -->
+
+
+					<p class="QubitItem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt in, nemo dignissimos officiis dicta cupiditate ex quibusdam a quas optio iste,
+						consequatur sed blanditiis vero adipisci. Repellat, harum</p>
+
+					<p class="QubitItem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt in, nemo dignissimos officiis dicta cupiditate ex quibusdam a quas optio iste,
+						consequatur sed blanditiis vero adipisci. Repellat, harum</p>
+
+					<p class="QubitItem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt in, nemo dignissimos officiis dicta cupiditate ex quibusdam a quas optio iste,
+						consequatur sed blanditiis vero adipisci. Repellat, harum</p>
+
+					<p class="QubitItem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt in, nemo dignissimos officiis dicta cupiditate ex quibusdam a quas optio iste,
+						consequatur sed blanditiis vero adipisci. Repellat, harum</p>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+
+
+	<!-- Seccion CompuCuantica -->
+
+	<section id="CompuCuantica">
+		<div class="container-fluid">
+			<!-- Para establecer los margener con la pagina -->
+
+			<div class="row">
+				<div class="col-lg-6">
+					<!-- Columna 1 -->
+					<img src="imagenes/img1.png">
+				</div>
+				<div class="col-lg-6">
+					<!-- Columna 2 -->
+					<div class="cuantica">
+						<h1>Computadora Cuántica</h1>
+					</div>
+					<div class="cuantica1">
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione atque, eligendi mollitia
+							incidunt modi pariatur a dolor, nisi quae accusamus dolorum eum error porro quasi? Dolores
+							perferendis quos ut eum?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione atque, eligendi mollitia
+							incidunt modi pariatur a dolor, nisi quae accusamus dolorum eum error porro quasi? Dolores
+							perferendis quos ut eum?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione atque, eligendi mollitia
+							incidunt modi pariatur a dolor, nisi quae accusamus dolorum eum error porro quasi? Dolores
+							perferendis quos ut eum?</p>
+					</div>
+					<br> <br> <br>
+					<a href="#Recomendaciones" class="btn btn-primary btn-lg">Regresar a Lobby</a>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+
+
+
+	<!-- Seccion Avances -->
+	<section id="Avances">
+
+		<div id="carouselAvancesControls" class="carousel slide" data-ride="false" data-pause="hover">
+			<div class="carousel-inner">
+				<div class="carousel-item active container-fluid">
+					<div class="row">
+						<div class="col-lg-12">
+							<h1 class="HeadingGrande">Modelos Actuales</h1>
+						</div>
+						<div class="col-lg-6 RecomendacionesElementos">
+							<img class="RecomendacionesImage" src="imagenes/img1.jpg">
+						</div>
+
+						<div class="col-lg-6 RecomendacionesElementos RecomendacionesTexto">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt in,
+								nemo dignissimos officiis dicta cupiditate ex quibusdam a quas optio iste,
+								consequatur sed blanditiis vero adipisci. Repellat, harum!</p>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item container-fluid">
+					<div class="row">
+						<div class="col-lg-12">
+							<h1 class="HeadingGrande">Programación Cuántica</h1>
+						</div>
+						<div class="col-lg-6 RecomendacionesElementos">
+							<img class="RecomendacionesImage" src="imagenes/img1.jpg">
+						</div>
+
+						<div class="col-lg-6 RecomendacionesElementos RecomendacionesTexto">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt in,
+								nemo dignissimos officiis dicta cupiditate ex quibusdam a quas optio iste,
+								consequatur sed blanditiis vero adipisci. Repellat, harum!</p>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item container-fluid">
+					<div class="row">
+						<div class="col-lg-12">
+							<h1 class="HeadingGrande">Aplicaciones</h1>
+						</div>
+						<div class="col-lg-6 RecomendacionesElementos">
+							<img class="RecomendacionesImage" src="imagenes/img1.jpg">
+						</div>
+
+						<div class="col-lg-6 RecomendacionesElementos RecomendacionesTexto">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt in,
+								nemo dignissimos officiis dicta cupiditate ex quibusdam a quas optio iste,
+								consequatur sed blanditiis vero adipisci. Repellat, harum!</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselAvancesControls" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselAvancesControls" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+		<a href="#Recomendaciones" class="btn btn-primary btn-lg">Regresar a Lobby</a>
+	</section>
+	<!-- Seccion Gracias -->
+
+	<section id="Gracias">
+		<div class="container-fluid">
+			<!-- Para establecer los margener con la pagina -->
+			<!-- El mega gracias por mientras -->
+			<h1 class="MasiveHeading">GRACIAS</h1>
+
+		</div>
+	</section>
+
+
+
+
+</body>
+
+</html>

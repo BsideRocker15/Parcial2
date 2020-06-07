@@ -1,0 +1,97 @@
+/* Seccion de Headings */
+.HeadingGrande {
+  font-size: 4rem;
+}
+
+.MasiveHeading {
+  font-size: 15rem;
+}
+
+/* Seccion portada */
+#portada {
+background-color: #296791;
+padding: 7% 15%;
+text-align: center;
+}
+
+/* Seccion Recomendaciones */
+/* Estilo de la seccion completa */
+#Recomendaciones {
+  padding: 7% 15%;
+  text-align: left;
+}
+
+.boton {
+  margin: 5% 3% 5% 0;
+}
+
+.RecomendacionesImage {
+  margin-bottom: 4%;
+  width: 70%;
+}
+
+.RecomendacionesTexto {
+  text-align: left;
+}
+
+.RecomendacionesTittle {
+  margin-bottom: 4%;
+}
+
+/* Seccion Diferencias */
+/* Estilo de la seccion completa */
+#Diferencias {
+  background-color: #49B0F4;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.diferenciaBox {
+  padding: 5%;
+}
+
+/* Estilo de los logos sobre las diferencias */
+.logos {
+  color: #DEAE6A;
+  padding: 5% 25%;
+}
+
+/* Seccion Concepto */
+#Concepto {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+/* Seccion Qubit */
+#Qubit {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.QubitItem {
+  margin: 2% 0;
+}
+
+.QubitRight {
+  background-color: #49B0F4;
+  padding: 5%;
+}
+
+/* Seccion CompuCuantica */
+#CompuCuantica {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+/* Seccion Avances */
+#Avances {
+  background-color: #49B0F4;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+/* Seccion Gracias */
+#Gracias {
+  padding: 7% 15%;
+  text-align: center;
+}
