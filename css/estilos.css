@@ -10,7 +10,7 @@
 /* Seccion portada */
 #portada {
 background-color: #296791;
-padding: 7% 15%;
+padding: 4% 15% 7%;
 text-align: center;
 }
 
@@ -81,6 +81,10 @@ text-align: center;
 #CompuCuantica {
   padding: 7% 15%;
   text-align: center;
+}
+
+.QuantumImage{
+  width: 50%;
 }
 
 /* Seccion Avances */
