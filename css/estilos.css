@@ -1,17 +1,55 @@
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+.BotonesLeft {
+  margin-left: 5%;
+  text-align: left;
+}
+
+/* Seccion de secciones  */
+.colored-section {
+  color: #fff;
+}
+
 /* Seccion de Headings */
+.bigheading {
+  font-family: 'Cardo', serif;
+  font-size: 8rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
 .HeadingGrande {
-  font-size: 4rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 7rem;
+  margin-bottom: 4%;
 }
 
 .MasiveHeading {
   font-size: 15rem;
 }
 
+.MedioHeading {
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
 /* Seccion portada */
 #portada {
-background-color: #296791;
-padding: 4% 15% 7%;
-text-align: center;
+  background-color: #296791;
+  padding: 4% 15% 7%;
+  text-align: left;
+}
+
+.LeftColumn {
+  margin-bottom: 6%;
+}
+
+.PortadaImage {
+  box-shadow: 0 7px 7px 0 #000;
+  width: 97%;
 }
 
 /* Seccion Recomendaciones */
@@ -25,23 +63,44 @@ text-align: center;
   margin: 5% 3% 5% 0;
 }
 
-.RecomendacionesImage {
-  margin-bottom: 4%;
-  width: 70%;
+.RecomendacionesElementos {
+  margin-right: 3%;
 }
 
-.RecomendacionesTexto {
+/* .RecomendacionesImage {
+  margin-bottom: 4%;
+} */
+/* Seccion Concepto */
+#Concepto {
+  background-color: #49B0F4;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+#Concepto h3{
   text-align: left;
+  margin-left: 15%;
 }
 
-.RecomendacionesTittle {
-  margin-bottom: 4%;
+
+.ConceptoHeading {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.5;
 }
 
+.ConceptoImage {
+  box-shadow: 5px 5px #000;
+  width: 20%;
+}
+
+.ConceptoMargin{
+margin: 5% 30%;
+text-align: left;
+}
 /* Seccion Diferencias */
 /* Estilo de la seccion completa */
 #Diferencias {
-  background-color: #49B0F4;
   padding: 7% 15%;
   text-align: center;
 }
@@ -50,52 +109,115 @@ text-align: center;
   padding: 5%;
 }
 
+.DiferenciaRow {
+  margin-bottom: 3%;
+}
+
 /* Estilo de los logos sobre las diferencias */
 .logos {
   color: #DEAE6A;
   padding: 5% 25%;
 }
 
-/* Seccion Concepto */
-#Concepto {
-  padding: 7% 15%;
-  text-align: center;
-}
-
 /* Seccion Qubit */
 #Qubit {
   padding: 7% 15%;
   text-align: center;
+  background-color: #49B0F4;
+}
+
+.QubitCirculo{
+  margin: 5% 0 5% 0;
+}
+
+.QubitImage{
+margin-top: 2%;
+width: 100%;
 }
 
 .QubitItem {
-  margin: 2% 0;
+  margin: 3% 25% 3% 5%;
+}
+
+.QubitItem h3{
+color: #296791;
+font-weight: 600;
+
+}
+
+.QubitLeft{
+  background-color: #000;
+}
+
+.QubitParrafo{
+margin: 0 15%;
+margin-bottom: 15%;
 }
 
 .QubitRight {
-  background-color: #49B0F4;
+  background-color: #fff;
   padding: 5%;
+  text-align: left;
 }
 
+.QuantumRow{
+    box-shadow: 3px 3px 3px 3px #000;
+}
 /* Seccion CompuCuantica */
 #CompuCuantica {
   padding: 7% 15%;
   text-align: center;
 }
 
-.QuantumImage{
-  width: 50%;
+.QuantumFix {
+  margin-bottom: 12.6%;
 }
 
-/* Seccion Avances */
-#Avances {
-  background-color: #49B0F4;
-  padding: 7% 15%;
-  text-align: center;
+.QuantumHeading {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 6rem;
+  font-weight: 600;
+}
+
+.QuantumImage {
+  box-shadow: 0 7px 7px 0 #000;
+  width: 80%;
+}
+
+.QuantumLeft {
+  text-align: left;
+}
+
+.QuantumPrice {
+  color: green;
 }
 
 /* Seccion Gracias */
 #Gracias {
+  background-color: #296791;
   padding: 7% 15%;
+  text-align: left;
+}
+
+#Gracias .HeadingGrande {
+  margin-bottom: 13%;
+}
+
+.ContactImage {
+  box-shadow: 0 7px 7px 0 #000;
+  height: 90%;
+  width: 102%;
+}
+
+.GraciasFix {
+  margin-bottom: 7%;
+}
+
+#footer {
+  padding: 4% 15%;
   text-align: center;
+}
+
+.footer-logo {
+  padding: 0 1rem;
 }

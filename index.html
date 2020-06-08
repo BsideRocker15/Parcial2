@@ -5,6 +5,8 @@
 	<meta charset="UTF-8">
 	<!-- titulo -->
 	<title>Computación Cuántica</title>
+	<!-- Link para las fuentes -->
+	<link href="https://fonts.googleapis.com/css2?family=Cardo&family=Nunito:wght@600&family=Roboto+Condensed&display=swap" rel="stylesheet">
 	<!-- link a css -->
 	<link rel="stylesheet" href="css/estilos.css">
 	<!-- link a libreria bootstrap 4.0 -->
@@ -21,7 +23,7 @@
 	<!-- Audio de Cuantica -->
 	<audio src="cuantica.mp3" autoplay type="audio/mp3/"></audio>
 
-	<section id="portada">
+	<section id="portada" class="colored-section">
 		<div class="container-fluid">
 			<nav class="navbar navbar-expand-lg navbar-dark ">
 				<a class="navbar-brand" href="#">TeatroCuantico</a>
@@ -31,20 +33,32 @@
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item active">
-							<a class="nav-link" href="#">Video<span class="sr-only">(current)</span></a>
+							<a class="nav-link" href="https://youtu.be/673_kCcKEXs">Video<span class="sr-only">(current)</span></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Pdf</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Pricing</a>
+							<a class="nav-link" href="https://drive.google.com/file/d/1_rc5CBa1SdjMFe4NtS8HQg9aPaRG5T30/view?usp=sharing">Pdf</a>
 						</li>
 					</ul>
 				</div>
 			</nav>
 
 			</nav>
-			<!-- <h1 class="MasiveHeading">Hello</h1> -->
+
+			<!-- Seccion de titulo -->
+
+
+			<div class="row">
+				<div class="col-lg-6">
+					<h1 class="bigheading LeftColumn"> Quantum Computing</h1>
+					<h2 class="MedioHeading LeftColumn">La Exposición</h2>
+					<a href="#Recomendaciones" class="btn btn-dark btn-lg"><i class="fas fa-play"></i> Iniciar</a>
+				</div>
+				<div class="col-lg-6">
+					<img class="PortadaImage" src="imagenes/QuantumComputingTittle.png">
+				</div>
+			</div>
+		</div>
+
 		</div>
 	</section>
 
@@ -57,151 +71,102 @@
 		<div class="container fluid">
 			<!-- Para establecer los margener con la pagina -->
 			<!--Clase nativa de Boostrap que trae todo el centro -->
-			<h1 class="RecomendacionesTexto HeadingGrande RecomendacionesTittle">Recomendaciones</h1>
+			<h1 class="HeadingGrande">Lobby</h1>
+			<div class="">
+				<p class="LeftColumn">Nota: Para que la experiencia de uso sea óptima, se recomienda navegar por medio de los botones, evitando el uso del scroll o rueda del mouse.</p>
+			</div>
+
 			<div class="row">
 				<!--Clase para el sistema de Grid -->
-				<div class="col-lg-6 RecomendacionesElementos">
-					<!-- Columna 1 -->
-					<img class="RecomendacionesImage" src="imagenes/img1.jpg">
+				<div class="col-lg-2 RecomendacionesElementos">
+					<div class="card" style="width: 13rem;">
+						<img class="card-img-top RecomendacionesImage" src="imagenes/PlanckCortado.jpg">
+						<div class="card-body">
+							<h5 class="card-title">Origen</h5>
+							<p class="card-text">Aprende todo lo relacionado con los antecedentes que unen a la informática y las ciencias cuánticas.</p>
+							<a href="#Concepto" class="btn btn-primary">Ir a sala 1</a>
+						</div>
+					</div>
 				</div>
 
-				<div class="col-lg-6 RecomendacionesElementos RecomendacionesTexto">
-					<!-- Columna 2 -->
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt in,
-						nemo dignissimos officiis dicta cupiditate ex quibusdam a quas optio iste,
-						consequatur sed blanditiis vero adipisci. Repellat, harum!</p>
+				<div class="col-lg-2 RecomendacionesElementos">
+					<div class="card" style="width: 13rem;">
+						<img class="card-img-top RecomendacionesImage" src="imagenes/Diferencias.png">
+						<div class="card-body">
+							<h5 class="card-title">Diferencias</h5>
+							<p class="card-text">Repasa las ventajas que presenta la computación cuántica ante la binaria o tradicional.</p>
+							<a href="#Diferencias" class="btn btn-primary">Ir a sala 2</a>
+						</div>
+					</div>
 				</div>
-			</div>
-			<div>
-				<a href="#Diferencias" class="btn btn-primary btn-lg boton">Sala 1</a>
-				<a href="#Concepto" class="btn btn-primary btn-lg boton">Sala 2</a>
-				<a href="#Qubit" class="btn btn-primary btn-lg boton">Sala 3</a>
-				<a href="#CompuCuantica" class="btn btn-primary btn-lg boton">Sala 4</a>
-				<a href="#Avances" class="btn btn-primary btn-lg boton">Sala 5</a>
-				<a href="#Gracias" class="btn btn-primary btn-lg boton">Salida</a>
+
+				<div class="col-lg-2 RecomendacionesElementos">
+					<div class="card" style="width: 13rem;">
+						<img class="card-img-top RecomendacionesImage" src="imagenes/Qubitpequeño.png" alt="Card image cap">
+						<div class="card-body">
+							<h5 class="card-title">Qubits</h5>
+							<p class="card-text">Encontrarás información relacionada con los Qubits, como sus propiedades.</p>
+							<a href="#Qubit" class="btn btn-primary">Ir a sala 3</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-2 RecomendacionesElementos">
+					<div class="card" style="width: 13rem;">
+						<img class="card-img-top RecomendacionesImage" src="imagenes/Dwave200Cortado.jpg">
+						<div class="card-body">
+							<h5 class="card-title">Características</h5>
+							<p class="card-text">Con un ejemplo didáctico, mostramos las características de una computadora cuántica.</p>
+							<a href="#CompuCuantica" class="btn btn-primary">Ir a sala 4</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-2 RecomendacionesElementos">
+					<div class="card" style="width: 13rem;">
+						<img class="card-img-top RecomendacionesImage" src="imagenes/Mail.png" alt="Card image cap">
+						<div class="card-body">
+							<h5 class="card-title">Contacto</h5>
+							<p class="card-text">Cuéntanos que tal la experiencia de navegación. Aquí, la información de contacto.</p>
+							<a href="#Gracias" class="btn btn-primary">Ir a salida</a>
+						</div>
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</section>
-
-
-
-
-
-
-
-	<!-- Seccion Diferencias -->
-	<section id="Diferencias">
-
-		<div class="container fluid">
-			<!-- Para establecer los margener con la pagina -->
-			<h1 class="HeadingGrande">Diferencias</h1>
-			<div class="row">
-				<!--Clase para el sistema de Grid -->
-				<div class="col-lg-4 diferenciaBox">
-					<!--Columna 1 -->
-					<i class="fas fa-tachometer-alt fa-5x logos"></i>
-					<h3 class="hachetres">Easy to use.</h3>
-					<p>So easy to use, even your dog could do it.</p>
-				</div>
-				<div class="col-lg-4 diferenciaBox">
-					<!--Columna 2 -->
-					<i class="fas fa-plus fa-5x logos"></i>
-					<h3 class="hachetres">Elite Clientele</h3>
-					<p>We have all the dogs, the greatest dogs.</p>
-				</div>
-				<div class="col-lg-4 diferenciaBox">
-					<!--Columna 3 -->
-					<i class="fas fa-chart-line fa-5x logos"></i>
-					<h3 class="hachetres">Guaranteed to work.</h3>
-					<p>Find the love of your dog's life or your money back.</p>
-				</div>
-			</div>
-			<a href="#Recomendaciones" class="btn btn-primary btn-lg">Regresar a Lobby</a>
-		</div>
-	</section>
-
-
-
 
 
 
 	<!-- Seccion Concepto -->
-	<section id="Concepto">
+	<section id="Concepto" class="colored-section">
+
+<h3 class="MedioHeading">Antecedentes de la Computación Cuántica</h3>
 
 		<div id="carouselConceptoControls" class="carousel slide" data-ride="false" data-pause="hover">
 			<!--Id del carrusel MUY IMPORTANTE -->
 			<div class="carousel-inner">
 				<div class="carousel-item active container-fluid">
-					<!--Primer Elemento que se muestra, porque esta Active -->
-					<div class="row">
-						<div class="col-lg-12">
-							<!-- Separa el titulo de la columna 1 y la comlumna 2 -->
-							<h1 class="HeadingGrande">Teoría Cuántica</h1>
-							<!--Elemento 1 -->
-						</div>
-						<div class="col-lg-6 RecomendacionesElementos">
-							<!--Columna 1 -->
-							<img class="RecomendacionesImage" src="imagenes/PlanckyEinstein.jpg">
-						</div>
+					<h1 class="ConceptoHeading">Teoría Cuántica</h1>
+					<img class="ConceptoImage" src="imagenes/PlanckyEinstein.jpg">
+					<p class="ConceptoMargin">Antes de la teoría cuántica, las leyes de cómo se comportaban los cuerpos en movimiento se basaba en la mecánica newtoniana. Hasta que a inicios del siglo XX un grupo de científicos, entre ellos Max Planck y Albert Einstein, impulsaron la investigación atómica, con la teoría de los cuántos.</p>
 
-						<div class="col-lg-6 RecomendacionesElementos RecomendacionesTexto">
-							<!--Columna 2 -->
-							<p>Antes de la teoría cuántica, las leyes de cómo se comportaban los cuerpos en movimiento se basaba en la mecánica newtoniana.<br><br> No fue desarrollada por una sola persona, de hecho una cantidad considerable de científicos de
-								diferentes disciplinas, incluidos Albert Einstein, realizaron valiosos aportes.<br><br>El físico alemán Max Planck fue el primero en hablar sobre ella en 1900. Postuló que la materia solo puede emitir o absorber energía en pequeñas
-								cantidades llamadas cuantos.
-								Por otro lado, el físico Werner Heisenberg, desarrolló el principio de incertidumbre, que sería clave para entender mejor el mundo subatómico. <br><br> Esto abrió la puerta para que diferentes disciplinas se vieran afectadas por estos
-								conocimientos, entre estas, la informática.<br><br>
-
-							</p>
-
-						</div>
-					</div>
 				</div>
 				<div class="carousel-item container-fluid">
-					<div class="row">
-						<div class="col-lg-12">
-							<h1 class="HeadingGrande">Definición</h1> <!-- Separa el titulo de la columna 1 y la comlumna 2 -->
-							<!--Elemento 2-->
-						</div>
-						<div class="col-lg-6 RecomendacionesElementos">
-							<!--Columna 1 -->
-							<img class="RecomendacionesImage" src="imagenes/Definicio.jpg">
-						</div>
+					<h1 class="ConceptoHeading">Definición</h1> <!-- Separa el titulo de la columna 1 y la comlumna 2 -->
 
-						<div class="col-lg-6 RecomendacionesElementos RecomendacionesTexto">
-							<!--Columna 2 -->
-							<p>La computación cuántica es la que hace uso de los fenómenos entre partículas atómicas. <br><br>
-								No busca mejorar el sistema binario, ni mejorar las supercomputadoras. En cambio, es un paradigma de computación distinto al de la informática clásica o computación clásica.<br><br> Se basa en el uso de cúbits, una combinación de unos
-								y ceros, en lugar de bits, en los que solo se usa el 1 o el 0, no pueden estar a la vez.
-								Esto da lugar a nuevas puertas lógicas que hacen posibles nuevos algoritmos.<br><br>Una misma tarea puede tener diferente complejidad en computación clásica y en computación cuántica, lo que ha dado lugar a una gran expectación, ya
-								que algunos problemas intratables pasan a ser tratables.</p>
-						</div>
-					</div>
+
+					<img class="ConceptoImage" src="imagenes/Definicio.jpg">
+
+					<p class="ConceptoMargin">La computación cuántica es la que hace uso de los fenómenos entre partículas atómicas. Consiste en un paradigma de computación basado en el uso de cúbits, una combinación de unos y ceros, en lugar de bits, en los que solo se usa el 1 o el 0, no pueden estar a la vez.</p>
+
 				</div>
 				<div class="carousel-item container-fluid">
-					<div class="row">
-						<div class="col-lg-12">
-							<!-- Separa el titulo de la columna 1 y la comlumna 2 -->
-							<h1 class="HeadingGrande">Origen</h1>
-							<!--Elemento 3-->
-						</div>
-						<div class="col-lg-6 RecomendacionesElementos">
-							<!--Columna 1 -->
-							<img class="RecomendacionesImage" src="imagenes/Transistor.jpg">
-						</div>
-
-						<div class="col-lg-6 RecomendacionesElementos RecomendacionesTexto">
-							<!--Columna 2 -->
-							<p>A medida que evoluciona la tecnología y se reduce el tamaño de los transistores para producir microchips cada vez más pequeños, esto supone mayor velocidad de proceso. Sin embargo, no se pueden hacer los chips infinitamente pequeños,
-								ya que hay un límite tras el cual dejan de funcionar. Sucede que en escala de nanómetros,
-								los electrones se escapan de los canales por donde deben circular, debido al fenómeno conocido como efecto túnel.<br><br>
-								Una partícula clásica al encontrar un obstáculo, no puede atravesarlo y rebota. Pero los electrones, que son partículas cuánticas y se comportan como ondas, existe la posibilidad de que una parte de ellos pueda atravesar las paredes
-								si son los suficientemente delgadas; de esta manera la señal puede salir del curso propuesto y
-								Por ello, el chip deja de funcionar correctamente.<br><br>
-								La computación digital tradicional no tardaría en llegar a su límite, surge entonces la necesidad de descubrir nuevas tecnologías y es en este punto donde la computación cuántica entra en escena.
-							</p>
-						</div>
-					</div>
+					<h1 class="ConceptoHeading">Origen</h1>
+					<img class="ConceptoImage" src="imagenes/Transistor.jpg">
+					<p class="ConceptoMargin">La evolución de la tecnología reduce el tamaño de los transistores en vista de mayor velocidad de proceso. Sin embargo, esto tiene un límite: no se pueden hacer los chips infinitamente pequeños, porque dejan de funcionar debido al efecto túnel. La computación cuántica no se ve afectada por este efecto.</p>
+					</p>
 				</div>
 			</div>
 			<!-- controles del carrusel -->
@@ -219,7 +184,38 @@
 		<a href="#Recomendaciones" class="btn btn-primary btn-lg">Regresar a Lobby</a>
 	</section>
 
+	<!-- Seccion Diferencias -->
+	<section id="Diferencias" class="">
 
+		<div class="container fluid">
+			<!-- Para establecer los margener con la pagina -->
+			<h1 class="HeadingGrande">Diferencias con la Computación Binaria</h1>
+			<div class="row DiferenciaRow">
+				<!--Clase para el sistema de Grid -->
+				<div class="col-lg-4 diferenciaBox">
+					<!--Columna 1 -->
+					<i class="fas fa-tachometer-alt fa-5x logos"></i>
+					<h3 class="hachetres">Potencia de Cálculo.</h3>
+					<p>Puede realizar operaciones de forma simultánea.</p>
+				</div>
+				<div class="col-lg-4 diferenciaBox">
+					<!--Columna 2 -->
+					<i class="fas fa-plus fa-5x logos"></i>
+					<h3 class="hachetres">Mayor capacidad de cálculo</h3>
+					<p>1 bit entrega un sólo resultado. 1 Qubit puede entregar 2 por unidad.</p>
+				</div>
+				<div class="col-lg-4 diferenciaBox">
+					<!--Columna 3 -->
+					<i class="fas fa-chart-line fa-5x logos"></i>
+					<h3 class="hachetres">Avance Tecnológico.</h3>
+					<p>Expande las barreras de lo que es posible con la computación.</p>
+				</div>
+			</div>
+			<div class="BotonesLeft">
+				<a href="#Recomendaciones" class="btn btn-primary btn-lg">Regresar a Lobby</a>
+			</div>
+		</div>
+	</section>
 
 
 
@@ -231,37 +227,36 @@
 		<div class="container-fluid">
 			<!-- Para establecer los margener con la pagina -->
 
-			<div class="row">
-				<div class="col-lg-6">
+			<div class="row QuantumRow">
+				<div class="col-lg-6 colored-section QubitLeft">
 					<!-- Columna 1 -->
-
-					<div class="circulo">
-						<img src="imagenes/Qubit.png" class="imagen">
-						<h2 align="center">Qubit</h2>
+						<img class="QubitImage" src="imagenes/qubitalt.jpg" class="imagen">
+					<div class="QubitCirculo">
+						<h2 align="center">Qubit (32)</h2>
 					</div>
-					<div class="parrafo">
-						<p>En realidad me llamo Quantum bit, pero puedes decirme Qubit. Aveces puedo ser "1", otras "0" o los dos a la vez, según lo que necesites. Lo que si es seguro, es que siempre te acompañaré.</p>
+					<div class="QubitParrafo">
+						<p>"En realidad me llamo Quantum bit, pero puedes decirme Qubit. Aveces puedo ser "1", otras "0" o los dos a la vez, según lo que necesites. Lo que si es seguro, es que siempre te acompañaré."</p>
 					</div>
-					<a href="#Recomendaciones" class="btn btn-primary btn-lg">Regresar a Lobby</a>
+					<a href="#Recomendaciones" class="btn btn-danger btn-lg up"> <i class="fas fa-heart"></i> Regresar a Lobby</a>
 				</div>
 				<div class="col-lg-6 QubitRight">
 					<!-- Columna 2 -->
 
 					<div class="QubitItem">
 						<h3>Definición</h3>
-						<p>Sistema cuántico con dos estados propios y que puede ser manipulado arbitrariamente. Solo puede ser descrito correctamente mediante la mecánica cuántica, y solamente tiene dos estados bien distinguibles mediante medidas físicas.
-							También se entiende por cúbit la información que contiene ese sistema cuántico de dos estados posibles.</p>
+						<p>Sistema cuántico con 2 estados propios y que puede ser manipulado arbitrariamente. Solo puede ser descrito correctamente mediante la mecánica cuántica, y solamente tiene 2 estados bien distinguibles mediante medidas físicas.
+							También se entiende por cúbit la información que contiene ese sistema cuántico.</p>
 					</div>
 
 					<div class="QubitItem">
 						<h3>Superposición</h3>
-						<p>Consiste en que un átomo puede adoptar un estado de 0 y de 1, pero además puede adoptar ambos estados al mismo tiempo, permitiendo a los ordenadores cuánticos probar, al mismo tiempo, todas las posibilidades que existen para resolver
-							un problema, en lugar de probar todas las posibilidades, como se realizan actualmente.</p>
+						<p>Consiste en que un átomo puede adoptar un estado de 0 y de 1, pero además puede adoptar ambos al mismo tiempo, permitiendo a los ordenadores cuánticos probar, a la vez, todas las posibilidades para resolver
+							un problema, en lugar de una en una.</p>
 					</div>
 
 					<div class="QubitItem">
 						<h3>Entrelazamiento</h3>
-						<p>Explica como un conjunto de partículas entrelazadas, que pueden ser solo 2, están unidas en su existencia de manera que aunque existan miles de años luz entre las mismas el cambio de estado de una de una de ellas afecta al resto de
+						<p>Explica como un conjunto de partículas entrelazadas, pueden ser solo 2, están unidas de manera que aunque existan a años luz de distancia, el cambio de estado de una de una afecta al resto de
 							forma inmediata. Esto permite la solución de problemas de forma simultánea.</p>
 					</div>
 
@@ -293,17 +288,17 @@
 					<!-- Columna 1 -->
 					<img class="QuantumImage" src="imagenes/QuantumComputer.jpg">
 				</div>
-				<div class="col-lg-6">
+				<div class="col-lg-6 QuantumLeft">
 					<!-- Columna 2 -->
-					<div class="">
-						<h2>Computadora Cuántica</h2>
-						<h3>$Muy Caro</h3>
+					<div class="QuantumFix">
+						<h2 class="QuantumHeading QuantumFix">Computadora Cuántica</h2>
+						<h3 class="QuantumFix QuantumPrice">$Muy Caro</h3>
 						<p>No utiliza monitores. No utiliza disco duro. Debe permanecer en unas condiciones de absoluto aislamiento ya que los estados cuánticos del átomo son extremadamente frágiles y la superposición de los estados que se produce durante el
 							proceso de cálculo, puede perturbarse.</p>
 						⭐⭐⭐⭐⭐
 						<p>By:<a href="https://www.ibm.com"> IBM</a> </p>
 					</div>
-					<a href="#Recomendaciones" class="btn btn-primary btn-lg">Regresar a Lobby</a>
+					<a href="#Recomendaciones" class="btn btn-success btn-lg"><i class="fas fa-shopping-cart"></i> Regresar a Lobby</a>
 				</div>
 			</div>
 
@@ -311,86 +306,47 @@
 	</section>
 
 
-
-
-	<!-- Seccion Avances -->
-	<section id="Avances">
-
-		<div id="carouselAvancesControls" class="carousel slide" data-ride="false" data-pause="hover">
-			<div class="carousel-inner">
-				<div class="carousel-item active container-fluid">
-					<div class="row">
-						<div class="col-lg-12">
-							<h1 class="HeadingGrande">Modelos Actuales</h1>
-						</div>
-						<div class="col-lg-6 RecomendacionesElementos">
-							<img class="RecomendacionesImage" src="imagenes/Dwave200.jpg">
-						</div>
-
-						<div class="col-lg-6 RecomendacionesElementos RecomendacionesTexto">
-							<ul>
-								<li></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="carousel-item container-fluid">
-					<div class="row">
-						<div class="col-lg-12">
-							<h1 class="HeadingGrande">Programación Cuántica</h1>
-						</div>
-						<div class="col-lg-6 RecomendacionesElementos">
-							<img class="RecomendacionesImage" src="imagenes/QuantumCode.jpg">
-						</div>
-
-						<div class="col-lg-6 RecomendacionesElementos RecomendacionesTexto">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt in,
-								nemo dignissimos officiis dicta cupiditate ex quibusdam a quas optio iste,
-								consequatur sed blanditiis vero adipisci. Repellat, harum!</p>
-						</div>
-					</div>
-				</div>
-				<div class="carousel-item container-fluid">
-					<div class="row">
-						<div class="col-lg-12">
-							<h1 class="HeadingGrande">Aplicaciones</h1>
-						</div>
-						<div class="col-lg-6 RecomendacionesElementos">
-							<img class="RecomendacionesImage" src="imagenes/Seguridad.jpg">
-						</div>
-
-						<div class="col-lg-6 RecomendacionesElementos RecomendacionesTexto">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt in,
-								nemo dignissimos officiis dicta cupiditate ex quibusdam a quas optio iste,
-								consequatur sed blanditiis vero adipisci. Repellat, harum!</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<a class="carousel-control-prev" href="#carouselAvancesControls" role="button" data-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="sr-only">Previous</span>
-			</a>
-			<a class="carousel-control-next" href="#carouselAvancesControls" role="button" data-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="sr-only">Next</span>
-			</a>
-		</div>
-		<a href="#Recomendaciones" class="btn btn-primary btn-lg">Regresar a Lobby</a>
-	</section>
 	<!-- Seccion Gracias -->
 
-	<section id="Gracias">
+	<section id="Gracias" class="colored-section">
 		<div class="container-fluid">
-			<!-- Para establecer los margener con la pagina -->
-			<!-- El mega gracias por mientras -->
-			<h1 class="MasiveHeading">GRACIAS</h1>
+			<div class="row">
+				<div class="col-lg-6">
+					<h1 class="HeadingGrande">Contáctanos</h1>
+
+					<div class="GraciasFix">
+						<h2>Email:</h2>
+						<h5>TeatroCuantico@ejemplomail.com</h5>
+					</div>
+
+					<div class="GraciasFix">
+						<h2>Teléfono:</h2>
+						<h5>(Ejemplo) 000-0000</h5>
+					</div>
+
+					<div class="GraciasFix">
+						<h2>Dirección:</h2>
+						<h5>Zona Ejemplo, Calle Ejemplo, Centro Comercial Ejemplo, Local Ejemplo.</h5>
+					</div>
+
+
+				</div>
+				<div class="col-lg-6">
+					<img class="ContactImage" src="imagenes/Mapita.jpg">
+				</div>
+
+			</div>
 
 		</div>
 	</section>
+	<!-- Footer -->
 
-
-
+	<footer id="footer">
+		<div class="container-fluid">
+			<p><i class="fab fa-twitter footer-logo"></i><i class="fab fa-facebook-f footer-logo"></i><i class="fab fa-instagram footer-logo"></i><i class="fas fa-envelope footer-logo"></i></p>
+			<p>© Copyright 2020 TeatroCuantico</p>
+		</div>
+	</footer>
 
 </body>
 
